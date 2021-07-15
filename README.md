@@ -1,2 +1,19 @@
-# citas_sat
-Continuously scan SAT calendar for open dates with selenium
+# SAT Citas
+Selenium automatization that helps to catch a SAT appointment.
+
+**It needs some tinkering by setting up parameters before making a reservation**
+
+...you could set up a Telegram bot and use it for confirmation, otherwise the script will open up a youtube video to alert if there's availability in the SAT system.
+
+# Requirements & TL;DR
+
+1. Python 3
+2. Firefox
+3. Install Selenium WebDriver
+4. Download [geckodriver](https://github.com/mozilla/geckodriver/releases) and [put it in the PATH](https://www.selenium.dev/documentation/en/webdriver/driver_requirements/)
+5. Run python script
+6. Select SAT location and procedure to monitor
+7. Solve the captcha
+8. Press enter for the script to start monitoring for open slots
+9. Wait
+10. Profit
