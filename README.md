@@ -17,3 +17,11 @@ Selenium automatization that helps to catch a SAT appointment.
 8. Fill out (or set them in the script) the RFC and mail so the calendar shows in the page
 9. Press enter for the script to start monitoring for open slots
 10. Wait for profit
+
+### Options
+
+`rfc`, `mail` **are needed before the calendar is shown**.
+
+`wait_time` changes how often the script refreshes the page for changes. By default is at 3 minutes.
+
+`name`, `phone` and `cel` are optional but could help by filling out the inputs once availability is found.
