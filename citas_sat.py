@@ -11,7 +11,7 @@ mail = 'your@mail.com'
 
 driver.get('https://citas.sat.gob.mx/citasat/agregarcita.aspx')
 
-input('Press Enter to start....')
+input('Make sure the SAT calendar is visible and press Enter to start....')
 
 # Uncomment next line to automatically fill the RFC
 #driver.find_element_by_id('TXTRFC').send_keys(rfc + Keys.TAB)
