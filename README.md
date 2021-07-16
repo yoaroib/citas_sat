@@ -5,14 +5,14 @@ Selenium automatization that helps to catch a SAT appointment.
 
 ...you could set up a Telegram bot and use it for confirmation, otherwise the script will open up a youtube video to alert if there's availability in the SAT system.
 
-# Requirements & TL;DR
+## Requirements & TL;DR
 
 1. Python 3
-2. Firefox
-3. Install Selenium WebDriver
+2. Firefox (could be used with another browser by using the appropriate driver)
+3. Install [Selenium WebDriver](https://www.selenium.dev/documentation/en/selenium_installation/installing_selenium_libraries/)
 4. Download [geckodriver](https://github.com/mozilla/geckodriver/releases) and [put it in the PATH](https://www.selenium.dev/documentation/en/webdriver/driver_requirements/)
 5. Run python script
-6. Select SAT location and procedure to monitor
+6. Manually select SAT location and procedure to monitor
 7. Solve the captcha
 8. Press enter for the script to start monitoring for open slots
 9. Wait
