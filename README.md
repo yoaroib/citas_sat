@@ -14,6 +14,6 @@ Selenium automatization that helps to catch a SAT appointment.
 5. Run python script
 6. Manually select SAT location and procedure to monitor
 7. Solve the captcha
-8. Press enter for the script to start monitoring for open slots
-9. Wait
-10. Profit
+8. Fill out (or set them in the script) the RFC and mail so the calendar shows in the page
+9. Press enter for the script to start monitoring for open slots
+10. Wait for profit
