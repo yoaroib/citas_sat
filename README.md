@@ -23,5 +23,3 @@ Selenium automatization that helps to catch a SAT appointment.
 `rfc`, `mail` **are needed before the calendar is shown**.
 
 `wait_time` changes how often the script refreshes the page for changes. By default is at 3 minutes.
-
-`name`, `phone` and `cel` are optional but could help by filling out the inputs once availability is found.
